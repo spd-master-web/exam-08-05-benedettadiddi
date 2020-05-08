@@ -1,7 +1,10 @@
 /* disable these when you're done */
+/*
 .ui-grid-container-one {
   background-image: url('/images/grid-1.png');
 }
+
+*/
 .ui-grid-container-two {
   background-image: url('/images/grid-2.png');
 }
@@ -9,3 +12,93 @@
   background-image: url('/images/grid-3.png');
 }
 /* your CSS goes here */
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.ui-grid-container {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0 auto;
+
+  background-color:white;
+
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.item1 {
+  background-color: #6495ed;
+}
+
+.item3 {
+  background-color: #6495ed;
+}
+
+.item5 {
+  background-color: #6495ed;
+}
+
+.item7 {
+  background-color: #6495ed;
+}
+
+.item9 {
+  background-color: #6495ed;
+}
+
+.item11 {
+  background-color: #6495ed;
+}
+
+.item13 {
+  background-color: #6495ed;
+}
+
+.item15 {
+  background-color: #6495ed;
+}
+
+.item15 {
+  background-color: #6495ed;
+}
+
+.item17 {
+  background-color: #6495ed;
+}
+
+.item19 {
+  background-color: #6495ed;
+}
+
+.item21 {
+  background-color: #6495ed;
+}
+
+.item23 {
+  background-color: #6495ed;
+}
+
+.item25 {
+  background-color: #6495ed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
