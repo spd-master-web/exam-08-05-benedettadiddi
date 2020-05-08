@@ -89,6 +89,31 @@ body {
   background-color: #6495ed;
 }
 
+.ui-grid-container-two {
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0 auto;
+
+  background-color:white;
+
+  display: grid;
+  grid-template-columns:repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.item7a {
+  background-color: fuchsia;
+  grid-column: span 4 ;
+}
+/* 
+for the second grid i have to use the grid-column:span 2/6 */
+
+
+
+
+
+
+
 
 
 
